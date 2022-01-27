@@ -1,3 +1,8 @@
+Single page aplication for cake shop.
+
+If you want to interact with a website, please follow the link - https://cranky-goldwasser-82e25e.netlify.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
