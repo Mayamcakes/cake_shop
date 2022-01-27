@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
 import './Navigation.scss';
+import { FC } from 'react';
 
-const Navigation = () => (
+type NavigationProps = {
+  sum?:number,
+}
+
+const Navigation:FC<NavigationProps> = ({ sum }) => (
   <div className="nav__box">
     <div>
       <Link to="/">
@@ -23,6 +28,7 @@ const Navigation = () => (
     <div className="nav__shopping">
       <button className="nav__button">
         &#128722;
+        {sum}
       </button>
     </div>
   </div>

@@ -36,10 +36,10 @@ const shopItems = [
     type: 'CUPCAKES',
   },
   // {
-  //     title:'Sweet Item',
-  //     price: 5,
-  //     imgSrc:'https://www.mygreekdish.com/wp-content/uploads/2013/05/Traditional-Greek-Baklava-recipe-with-honey-and-walnuts-1-scaled.jpeg',
-  //     type: 'SWEETS'
+  //   title: 'Sweet Item',
+  //   price: 5,
+  //   imgSrc: 'https://www.mygreekdish.com/wp-content/uploads/2013/05/Traditional-Greek-Baklava-recipe-with-honey-and-walnuts-1-scaled.jpeg',
+  //   type: 'SWEETS',
   // },
   // {
   //     title: 'Cupcake Item',

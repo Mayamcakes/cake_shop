@@ -4,10 +4,11 @@
 }
 
 .cardBox{
-  display:grid;
-  grid-template-columns:  repeat(auto-fit, 300px);
-  gap: 30px;
-  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: center;
   padding:30px;
 }
 
@@ -21,7 +22,7 @@
 }
 
 .card__buy{
-  position: absolute;
+  cursor: pointer;
 }
 
 .zoom{

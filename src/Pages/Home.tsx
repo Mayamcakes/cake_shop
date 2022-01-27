@@ -12,6 +12,7 @@ import shopItems from '../data/shopItems';
 const Home = () => {
   const [filterCards, setFilterCards] = useState(shopItems);
   const [search, setSearch] = useState('');
+  const [purchaseSum, setPurchaseSum] = useState(0);
 
   const clickHandlerFilterCards = (item:string) => {
     if (item === 'ALL') {
@@ -21,9 +22,17 @@ const Home = () => {
     const newArr = shopItems.filter(({ type }) => type === item);
     setFilterCards(newArr);
   };
+
+  const buyHandler = (item:number) => {
+    const itemPrice = shopItems.filter(({ price }, index) => item === index);
+    console.log(itemPrice);
+    setPurchaseSum(purchaseSum);
+  };
   return (
     <>
-      <Navigation />
+      <Navigation
+        sum={purchaseSum}
+      />
       <Welcome />
       <AboutUs />
 
@@ -60,6 +69,7 @@ const Home = () => {
                 picture={imgSrc}
                 item={title}
                 price={`$ ${price}`}
+                onClick={() => buyHandler}
               />
             ))}
         </div>

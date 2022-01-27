@@ -6,16 +6,16 @@ type CardProps = {
     item:string,
     price:number | string,
     type?:string,
+    onClick?:()=>void,
 }
 
 const Card:FC<CardProps> = ({
-  picture, item, price, type,
+  picture, item, price, type, onClick,
 }) => (
 
   <div className="card">
     <div className="picture">
       <img className="zoom" src={picture} alt="" width={300} height={300} />
-      <span className="card__buy">Buy</span>
     </div>
 
     <div className="textSection">
@@ -23,6 +23,7 @@ const Card:FC<CardProps> = ({
         {' '}
         {item}
       </span>
+      <span onClick={onClick} className="card__buy">&#128722;</span>
       <span>
         {' '}
         {price}
