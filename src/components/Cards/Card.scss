@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+.cardBox{
+  display:grid;
+  grid-template-columns:  repeat(auto-fit, 300px);
+  gap: 30px;
+  justify-items: center;
+  padding:30px;
+}
+
+.card{
+  box-shadow: 6px 6px 20px;
+}
+
+.picture{
+  position: relative;
+  overflow: hidden;
+}
+
+.card__buy{
+  position: absolute;
+}
+
+.zoom{
+  transition: all 1s ease-out;
+
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
+.textSection{
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  max-width: 300px;
+  padding: 20px;
+
+}

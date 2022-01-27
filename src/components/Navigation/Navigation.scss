@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+
+.nav__box{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  align-items: center;
+}
+
+.nav__link-box{
+  display: flex;
+  gap: 30px;
+}
+.nav__link{
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color:#ef99aa;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  background-color: transparent;
+}
+
+.nav__contacts{
+  display: flex;
+  gap: 15px;
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  font-size: 20px;
+}
+
+.nav__shopping{
+  text-align: center;
+}
+
+.nav__button{
+  background-color: transparent;
+  color:#000000;
+  border-radius: 5px;
+  border:1px solid black;
+  padding: 10px 25px;
+  cursor: pointer;
+
+}

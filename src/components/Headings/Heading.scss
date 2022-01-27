@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.contentWrapper{
+  display: grid;
+  grid-gap: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(238, 238, 238);
+}
+
+.heading{
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstHeadingWord{
+  font-size: 50px;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+.secondHeadingWord{
+  color: #ef99aa;
+  font-size: 90px;
+  margin-bottom: 0;
+}

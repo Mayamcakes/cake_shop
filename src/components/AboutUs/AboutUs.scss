@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+.about__box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  //display: flex;
+  //flex-direction: row;
+  //justify-content: space-between;
+}
+
+.about__text-section{
+  padding-left:30px;
+  padding-right: 30px;
+
+}
+
+.about__paragraph{
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  color: #6c757d;
+}
+
+.about__picture-section{
+  width: 100%;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.about__image{
+  max-width: 420px;
+  width: 100%;
+  text-align: right;
+}

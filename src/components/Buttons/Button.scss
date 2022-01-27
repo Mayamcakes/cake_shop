@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.buttonWrapper{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.filterButton{
+  font-family: 'Kaushan Script', cursive, sans-serif;
+  background-color: #ffffff;
+  color:#000000;
+  border: 1px solid #000000;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.7s;
+}
+
+.filterButton:hover{
+  background-color: #000000;
+  color: #ef99aa;
+  border: 1px solid transparent;
+}
