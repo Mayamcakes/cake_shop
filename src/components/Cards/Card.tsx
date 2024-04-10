@@ -15,7 +15,7 @@ const Card:FC<CardProps> = ({
 
   <div className="card">
     <div className="picture">
-      <img className="zoom" src={picture} alt="" width={300} height={300} />
+      <img className="zoom" src={picture} alt="" width={400} height={300} />
     </div>
 
     <div className="textSection">

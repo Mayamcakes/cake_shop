@@ -9,7 +9,7 @@ const Welcome = () => (
       <div className="welcome__heading">
         <Heading
           firstWord="Welcome To"
-          secondWord={"Grandma's"}
+          secondWord="MayamCakes"
         />
       </div>
 
