@@ -1,6 +1,6 @@
 Single page aplication for cake shop.
 
-If you want to interact with a website, please follow the link - https://cranky-goldwasser-82e25e.netlify.app
+If you want to interact with a website, please follow the link - will be provided
 
 
 # Getting Started with Create React App

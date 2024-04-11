@@ -12,7 +12,12 @@ const AboutUs = () => (
       />
 
       <p className="about__paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis porro at dolorum! Ad!
+        Welcome to Whimsical Time Bakery: Nairobis Time-Twisting Delights,Crafting confections that defy both time and taste.
+        Step into our enchanted bakery in Nairobi, Kenya, and prepare to be transported through the ages with our whimsical creations.
+        Try our Temporal Tartlets, where each bite takes you on a journey through history, from the Renaissance to the Roaring Twenties. Or indulge in our Cosmic Cake Pops, which sparkle with galaxies and taste like stardust.
+        Feeling adventurous? Sink your teeth into our Chrono-Chocolate Croissants, where every flaky layer is a portal to a different era.
+        And don not forget to sip on our Eternal Elixirs, specially brewed to tantalize your taste buds while bending the fabric of time itself.
+        At Whimsical Time Bakery, every bite is a magical adventure. Come join us as we bake our way through the ages!
       </p>
       <Link to="/about">
         <Button
